@@ -1,6 +1,6 @@
 // Import the UI library component
-// import { UIComponent } from 'ui-library';
-const UIComponent =  require('./ui-library.js');
+import { UIComponent } from './ui-library-lib';
+
 
 // Create an instance of the UI component
 const component = new UIComponent();

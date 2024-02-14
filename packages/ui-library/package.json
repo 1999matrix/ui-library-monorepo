@@ -5,7 +5,7 @@
   "author": "Shashwat_Dwivedi <shashwatsd44@gmail.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/ui-library.js",
+  "main": "lib/ui-library-lib.js",
   "directories": {
     "lib": "lib"
   },
