@@ -1,0 +1,21 @@
+{
+  "name": "ui-library",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Shashwat_Dwivedi <shashwatsd44@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/ui-library.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/ui-library.test.js"
+  },
+  "dependencies": {
+    "snabbdom": "^3.6.2"
+  }
+}
