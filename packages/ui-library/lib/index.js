@@ -8,3 +8,4 @@ const component = new UIComponent();
 // Mount the component to the DOM
 const container = document.getElementById('app');
 component.mount(container);
+
