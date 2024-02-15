@@ -4,9 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simple Web Page with UI Library</title>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      const addButton = document.querySelector('button');
+      const header = document.querySelector('h1');
+
+      addButton.addEventListener('click', function() {
+        let count = parseInt(header.textContent, 10);
+        header.textContent = count + 1;
+      });
+    });
+  </script>
+
 </head>
 <body>
   <div id="app"></div>
+  <h1>0</h1>
+  <button>Add</button>
   <script type="module"  src="index.js"></script>
 </body>
 </html>
